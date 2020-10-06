@@ -1,5 +1,35 @@
-h1{
-  color: limegreen;
-  background-color: magenta;
-  font-family: fantasy;
+h1 {
+  color: navy;
+  background-color: lightgray;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 5px 5px 6px black;
+}
+
+#inside {
+  list-style-position: outside;
+  list-style: square;
+  color: navy;
+  background-color: lightgray;
+  font-family: monospace;
+  text-shadow: 5px 5px 6px black;
+}
+
+#outside {
+  list-style-position: inside;
+  list-style: square;
+  color: navy;
+  background-color: lightgray;
+  font-family: monospace;
+  text-shadow: 5px 5px 6px black;
+}
+
+p {
+  color: navy;
+  font-family: monospace;
+  background-color: lightgray;
+}
+
+body {
+  background-color: lightgray;
 }
